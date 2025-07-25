@@ -21,11 +21,10 @@ function IndianPlayers() {
     }
   });
 
-  // Destructuring example:
+
   const [odd1, odd2, odd3] = oddPlayers;
   const [even1, even2, even3] = evenPlayers;
 
-  // Merge example:
   const T20players = ['Suryakumar Yadav', 'Ishan Kishan'];
   const RanjiTrophyPlayers = ['Prithvi Shaw', 'Mayank Agarwal'];
   const mergedPlayers = [...T20players, ...RanjiTrophyPlayers];
